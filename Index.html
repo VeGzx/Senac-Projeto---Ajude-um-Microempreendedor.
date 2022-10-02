@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/logo favicon 32.png">
+    <link rel="stylesheet" href="./Css/Style.css">
+    <title>Projeto SENAC - Programadores</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <a href="Index.html"> <img class="imagem" src="./img/Indústrias timmerman logo (1)(1).png"
+                        alt="Logotipo" width="200px"></a>
+            </div>
+            <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">Contato</a></li>
+                <li> <a href="#">Lojas</a></li>
+                <li> <a href="#">Quem Somos </a></li>
+                <li> <a href="#">SAQ</a></li>
+            </ul>
+            <button class="btn-orange">Pesquisar</button>
+        </nav>
+        <!--Termino da Nav-->
+        <main>
+            <div class="text-main">
+                <span>Faça parte do nosso time</span>
+                <h1>
+                    Five<br>Construtora<span>.</span>
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Vero nam ad cumque iste. Nisi sit aspernatur corporis suscipit error assumenda facilis vitae
+                    repellendus
+                    , eligendi magni cum reprehenderit maxime voluptatum deleniti?
+                </p>
+                <div class="midias-sociais">
+                    <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                    <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                </div>
+            </div>
+            <!--Termino do text-main-->
+            <div class="form-main">
+                <div class="form">
+                    <h2>Faça seu orçamento</h2>
+                    <form>
+                        <div class="form-input">
+                            <input type="text" placeholder="Nome Completo">
+                        </div>
+                        <div class="form-input">
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="form-input">
+                            <input type="text" placeholder="Whatsapp">
+                        </div>
+                        <div class="form-input">
+                            <textarea placeholder="Sua Mensagem"></textarea>
+                        </div>
+                        <button onclick="AlertarUsuario('Seus dados foram salvos, Aguarde o email!')"
+                            class="btn-orange">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <!--Termino do Form-main-->
+        </main>
+    </div>
+    <script src="./Scripts/main.js"></script>
+</body>
+
+</html>
