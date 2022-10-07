@@ -9,7 +9,7 @@
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="./img/logo favicon 32.png">
-    <link rel="stylesheet" href="./Css/Style.css">
+    <link rel="stylesheet" href="./style/Style.css">
     <title>Projeto SENAC - Programadores</title>
 </head>
 
@@ -21,11 +21,10 @@
                         alt="Logotipo" width="200px"></a>
             </div>
             <ul>
-                <li> <a href="#">Home</a></li>
-                <li> <a href="#">Contato</a></li>
-                <li> <a href="#">Lojas</a></li>
-                <li> <a href="#">Quem Somos </a></li>
-                <li> <a href="#">SAQ</a></li>
+                <li> <a href="./index.html">Home</a></li>
+                <li> <a href="./escritórios.html">Escritórios</a></li>
+                <li> <a href="./Quemsomos.html">Quem Somos</a></li>
+                <li> <a href="./Saq.html">SAQ</a></li>
             </ul>
             <button class="btn-orange">Pesquisar</button>
         </nav>
@@ -37,16 +36,14 @@
                     Five<br>Construtora<span>.</span>
                 </h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vero nam ad cumque iste. Nisi sit aspernatur corporis suscipit error assumenda facilis vitae
-                    repellendus
-                    , eligendi magni cum reprehenderit maxime voluptatum deleniti?
+                    "Nenhum projeto é viável se não começa a construir-se desde já: o futuro será o que começamos a fazer dele no presente."
+                    —  Içami Tiba
                 </p>
                 <div class="midias-sociais">
-                    <a href="#"> <i class="fa-brands fa-facebook"></i> </a>
-                    <a href="#"> <i class="fa-brands fa-instagram"></i> </a>
-                    <a href="#"> <i class="fa-brands fa-linkedin-in"></i> </a>
-                    <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                    <a href="https://www.facebook.com/"> <i class="fa-brands fa-facebook"></i> </a>
+                    <a href="https://www.instagram.com/"> <i class="fa-brands fa-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/"> <i class="fa-brands fa-linkedin-in"></i> </a>
+                    <a href="https://twitter.com/home"> <i class="fa-brands fa-twitter"></i> </a>
                 </div>
             </div>
             <!--Termino do text-main-->
@@ -55,13 +52,13 @@
                     <h2>Faça seu orçamento</h2>
                     <form>
                         <div class="form-input">
-                            <input type="text" placeholder="Nome Completo">
+                            <input type="text" placeholder="Nome Completo" required="nome" id="nome">
                         </div>
                         <div class="form-input">
-                            <input type="email" placeholder="Email">
+                            <input type="email" placeholder="Email" required="email" id="email">
                         </div>
                         <div class="form-input">
-                            <input type="text" placeholder="Whatsapp">
+                            <input type="text" placeholder="Whatsapp" required="Whatsapp">
                         </div>
                         <div class="form-input">
                             <textarea placeholder="Sua Mensagem"></textarea>
@@ -74,7 +71,43 @@
             <!--Termino do Form-main-->
         </main>
     </div>
-    <script src="./Scripts/main.js"></script>
 </body>
-
+<div class="white-space"></div>
+<div class="orange-space"></div>
+<footer>
+    <div class="container-footer">
+        <div class="row-footer">
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href=""> Nossos serviços </a></li>
+                    <li><a href=""> Política de privacidade </a></li>
+                    <li><a href=""> Programa de afiliados</a></li>
+                </ul>
+                <div class="medias-socias">
+                      <img src="./img/shield.png" width="45px" alt="">
+                      <img src="./img/protected.png" width="40px" alt="">
+                      <img src="./img/brazil (1).png" width="40px" alt="">
+                      <img src="./img/secure-payment.png" width="50px" alt="">
+                    </div>
+                   </div>
+            <!--end footer col-->
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Obter ajuda</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Devoluções</a></li>
+                    <li><a href="#">Status De Pedido</a></li>
+                </ul>
+            </div>
+            <!--end footer col-->
+            <!-- footer col-->
+            <div class="footer-col">
+                <h4>Onde nos Encontrar?</h4>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.356352923741!2d-43.56103518488533!3d-22.900223443394427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9be15839e68c4f%3A0x588a284ae162bc38!2sSenac%20Campo%20Grande!5e0!3m2!1spt-BR!2sbr!4v1664988080792!5m2!1spt-BR!2sbr" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+        <script src="./Scripts/main.js"></script>
 </html>

@@ -9,3 +9,8 @@ function logar(){
        alert("Ops, Algo deu errado. tente novamente.")
      }
 }
+
+
+function AlertarUsuario(){
+  alert("Ops, Algo deu errado. tente novamente.")
+}
