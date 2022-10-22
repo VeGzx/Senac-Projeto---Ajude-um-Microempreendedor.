@@ -7,8 +7,7 @@
 }
 
 body {
-  background-image: linear-gradient(#00000088, #00000028),
-    url(../img/person-working-building-construction.jpg);
+  background-image: linear-gradient(#00000088, #00000028), url(../img/person-working-building-construction.jpg);
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
@@ -75,7 +74,9 @@ nav ul a::after {
 }
 
 nav ul a:hover::after {
+  
   width: 100%;
+
 }
 
 main {
